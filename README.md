@@ -28,15 +28,20 @@ A lightweight Python script for hiding and extracting secret messages in PPM (P6
 No installation required. Just clone or download this repository.
 
 ```bash
-git clone https://github.com/amba-git/xor_stegno
-cd xor_stegno
+git clone https://github.com/amba-git/xor_stego_tool
+cd xor_stego_tool
 ```
 
-# Encode a Message
+## Encode a Message
+```bash
 python3 stegno.py -e -i input.png -m "Secret message" -k key -o output.png
+```
 
-# Decode a Message
-python3 stegno.py -d -i input.png -k key
-
-# For options
-python3 stegno.py -h 
+## Decode a Message
+```bash
+python3 stego.py -d -i input.png -k key
+```
+## For options
+```bash
+python3 stego.py -h 
+``
