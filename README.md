@@ -44,4 +44,4 @@ python3 stego.py -d -i input.png -k key
 ## For options
 ```bash
 python3 stego.py -h 
-``
+```
