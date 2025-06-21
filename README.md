@@ -1,16 +1,16 @@
 # LSB XOR Steganography Project
 
 I created a small basic script for hiding text data into image files.
-# LSB Steganography Tool (PPM Image Format Only)
+# LSB Steganography Tool (PNG Image Format Only)
 
-A lightweight Python script for hiding and extracting secret messages in PPM (P6) images using **Least Significant Bit (LSB) steganography**, with **no external dependencies**.
+A lightweight Python script for hiding and extracting secret messages in PPM (PNG) images using **Least Significant Bit (LSB) steganography**, with **no external dependencies**.
 
 ---
 
 # Features
 
- 1. Encode secret messages in raw `.ppm` (P6) image files.
- 2. Decode hidden messages from `.ppm` images.
+ 1. Encode secret messages in raw `.png` image files.
+ 2. Decode hidden messages from `.png` images.
  3. Uses only Python standard libraries.
  4. Command-line interface with simple flags.
     
@@ -20,7 +20,7 @@ A lightweight Python script for hiding and extracting secret messages in PPM (P6
 
 - Python 3.x
 - A `.ppm` image in **P6 binary format** (use GIMP or ImageMagick to convert if needed)
-
+- You can also use https://www.iloveimg.com/jpg-to-image/jpg-to-png to convert
 ---
 
 # Installation
